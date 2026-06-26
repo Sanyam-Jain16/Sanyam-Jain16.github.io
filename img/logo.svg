@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" role="img" aria-label="Sanyam Jain logo">
+    <defs>
+        <linearGradient id="sjGrad" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#6c63ff" />
+            <stop offset="0.5" stop-color="#ff6b9d" />
+            <stop offset="1" stop-color="#00d4ff" />
+        </linearGradient>
+    </defs>
+
+    <!-- Rounded badge with gradient border on dark fill -->
+    <rect x="2.5" y="2.5" width="43" height="43" rx="13" fill="#0f0f18" stroke="url(#sjGrad)" stroke-width="2.5" />
+
+    <!-- Code brackets < /> wrapping the monogram -->
+    <g fill="none" stroke="url(#sjGrad)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"
+        opacity="0.9">
+        <path d="M13 17 L8.5 24 L13 31" />
+        <path d="M35 17 L39.5 24 L35 31" />
+    </g>
+
+    <!-- SJ monogram -->
+    <text x="24" y="30.5" text-anchor="middle"
+        font-family="'Inter', 'Segoe UI', system-ui, Arial, sans-serif"
+        font-size="15" font-weight="800" letter-spacing="-0.5" fill="url(#sjGrad)">SJ</text>
+</svg>
